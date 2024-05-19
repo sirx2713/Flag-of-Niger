@@ -1,0 +1,35 @@
+body{
+    background-color: #FFFAE6;
+    font-family: sans-serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#container > #orange-div{
+    height: 200px;
+    width: 800px;
+    background-color: #E05206;
+}
+#container > #white-div{
+    height: 200px;
+    width: 800px;
+    background-color: white;
+}
+#container > #green-div{
+    height: 200px;
+    width: 800px;
+    background-color: #0DB02B;
+}
+#white-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#white-div > #circle{
+    height: 180px;
+    width: 180px;
+    background-color: #E05206;
+    border-radius: 50%;
+}
